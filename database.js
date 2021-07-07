@@ -6,7 +6,7 @@ const livros = [
     categoria: "Produtividade e estilo de Vida",
     paginas: 254,
     recomenda: false,
-    leu: false
+    leu: false,
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const livros = [
     categoria: "Historia do Brasil",
     paginas: 254,
     recomenda: false,
-    leu: false
+    leu: false,
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const livros = [
     categoria: "Américas",
     paginas: 400,
     recomenda: false,
-    leu: false
+    leu: false,
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const livros = [
     categoria: "Tecnologia",
     paginas: 412,
     recomenda: true,
-    leu: true
+    leu: true,
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const livros = [
     categoria: "Estilo de vida",
     paginas: 418,
     recomenda: true,
-    leu: true
+    leu: true,
   },
   {
     id: 6,
@@ -51,8 +51,17 @@ const livros = [
     categoria: "Tecnologia",
     paginas: 231,
     recomenda: true,
-    leu: true
-  }
-]
+    leu: true,
+  },
+  {
+    id: 7,
+    nome: "Javascript para Noobs",
+    autor: "Noobs que Programam",
+    categoria: "Tecnologia",
+    paginas: 400,
+    recomenda: true,
+    leu: true,
+  },
+];
 
-module.exports = livros
+module.exports = livros;
